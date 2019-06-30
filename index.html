@@ -5,24 +5,32 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
 		<!--<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>-->
-		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>-->
-		<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 		
 		
 		<title>Jacob Huber Website</title>
 		<style>
 			body {
-				padding-left: 15px;
-				padding-right: 15px;
+				padding-left: 30px;
+				padding-right: 30px;
+				
+				background-color: #5c2800;
+				background-image: url("https://github.com/huber02j/website/blob/master/wood-pattern.png?raw=true");
+				
+				<!-- background: #1FA2FF;  /* fallback for old browsers */ -->
+				<!-- background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */ -->
+				<!-- background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ -->
 			}
 			h1 {
-				background-image: url("https://github.com/huber02j/website/blob/master/wood.PNG?raw=true");
 				text-align: center;
 			}
 			h2 {
 				text-align: center;
+				color:#e9ecef;
 			}
 			h3 {
 				text-align: left;
@@ -31,50 +39,195 @@
 				padding-left:  40px;
 				padding-right: 40px;
 			}
+			
+			
+
 		</style>
 	</head>
 		<body>
-		<div class="container">
-				<ul>
-				<li style="display:inline";><a>About</a></li>
-				<li style="display:inline";><a>Contact</a></li>
-				<li style="display:inline";><a>Test 1</a></li>
-				<li style="display:inline";><a>Test 2</a></li>
-				</ul>
-			
-		<div class="jumbotron text-center">
-
+			<ul class="nav nav-pills">
+				<li class="nav-item">
+					<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#about">About</button>
+					<div id="about" class="collapse" style="color:#e9ecef;">
+						<kbd><=></kbd> <br>						
+						Hi! My name is Jacob Huber...
+					</div>
+				</li>
+				<li class="nav-item">
+					<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#contact">Contact</button>
+					<div id="contact" class="collapse" style="color:#e9ecef;">
+						email: jhuber4@nd.edu <br>
+						phone: 
+					</div>
+				</li>
+			</ul>
+		
+				
+		<!-- <div class="card shadow" style="height:500px;">
+		  <img class="card-img-top" src="https://github.com/huber02j/website/blob/master/wood.PNG?raw=true" alt="Card image">
+		  <div class="card-img-overlay">
 			<h1>Jacob Huber - Summer 2019</h1>
-			<p>Welcome! While I am abroad in Uganda interning with <a href="http://boscouganda.com/"> BOSCO Uganda </a>, I am
+			<p class="lead text-center">Welcome! While I am abroad in Uganda interning with <a class="text-info" href="http://boscouganda.com/"> BOSCO Uganda </a>, I am
 			creating this webpage as a way to share with friends and family some of my experiences. I am planning on sharing
 			photos and using those images as portals into the things I am seeing and experiencing. I hope you enjoy!</p>
-			<p>I am also using this page in order to learn and practice using html, css, and bootstrap. So if you follow along
+			<p class="lead text-center">I am also using this page in order to learn and practice using html, css, and bootstrap. So if you follow along
 			throughout the summer. Hopefully this page will continue to look better and better!</p>
+			<br>
+			<blockquote class="blockquote">
+				<p class="text-primary text-centered">"Live simply so others may simply live."</p>
+				<footer class="blockquote-footer text-centered">Mother Teresa</footer>
+			</blockquote>
+			<div class="alert alert-success mx-auto">
+				<strong>Welcome!</strong> Enjoy the website.
+			</div>
+		  </div>
+		</div> -->
+		
+		
+		<div class="jumbotron text-center">
+		
+			<h1>Jacob Huber - Summer 2019</h1>
+			<p class="lead">Welcome! While I am abroad in Uganda interning with <a class="text-info" href="http://boscouganda.com/"> BOSCO Uganda </a>, I am
+			creating this webpage as a way to share with friends and family some of my experiences. I am planning on sharing
+			photos and using those images as portals into the things I am seeing and experiencing. I hope you enjoy!</p>
+			<p class="lead">I am also using this page in order to learn and practice using html, css, and bootstrap. So if you follow along
+			throughout the summer. Hopefully this page will continue to look better and better!</p>
+			<br>
+			<blockquote class="blockquote">
+				<p class="text-primary">"Live simply so others may simply life."</p>
+				<footer class="blockquote-footer">Mother Teresa</footer>
+			</blockquote>
+			<div class="alert alert-success">
+				<strong>Welcome!</strong> Enjoy the website.
+			</div>
 		</div>
-			<h2 style=text-align:left;>Select a Category</h2>
-			<ul>
-				<li><a href="#tnz">Tanzania</a></li>
+		
+			<br>
+			<h2 style="text-align:center;">Select a Country</h2>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="card shadow" style="height:450px;">
+						<img  class="rounded card-img-top" alt="2ndMountain" src="https://lh3.googleusercontent.com/r3lhVO_eKe0yKEO4Jcsyj5cPlGZ1W5VHk6npl8E5zsza-8VWPoTUVe8sis6GhkozVpZgVgTxdZvXaNS_RWunrpUpvV_8r7_P0ewPREmhcsGR-Vprq8myLabQnc0oJ4BBtE5u1yWKArSsbaU9WouB6qc9XgmSeIaMt4Ua5DxT_H4qDAlmkdJUxoHUEDBob5Q8WNWIrmtzcg8r-lyXy9ybzsCYPHNOVSswgEis2Ux08e8TsgWdOghVsCNcIfCyBAO8y4j2WkbzXFGrExvf2ZFp3lmLmRNN_2P3f6Q53P8GRxmumU5wgGTE3HsoUrFZSc9gYEzqu5gEjnSlve1lWqoHOmnSoGcPqjGdWryc-CuQB-J6tLFnwyvzz4jOK4W-RhIjM8-LC_DvQ27appyMzIL5rs-PaiHFq6TKPfTjBg0oX4VfVJ3QYMWBEfN0FcbEKTJYebjzCt5Gc2S3xbT3h5qEl7mcga4O7DR6DCFU6tvIr_IvlWQpYZFbE7qMzVQFNieLocSMdBTQ617QSB3-kzoRjyZaS_0AebEMrq-gXQLO-0QjnUauhWowZ0U7M0HDzMOqTshjgvD0WABf6Gcp9N1zv_l6hNjj6d3JLhjMBCshi5FuiSPgRxVSOMRxza2ymnn5Xapil_a0F2Z7GX5k0T5pcW1rPzvn7VE=w278-h209-no"></img>
+						<div class="card-img-overlay">
+							<h3 style="text-align:center" class="card-title">Tanzania</h3>							
+							<a href="#tnz" class="btn btn-warning btn-block stretched-link" role="button">See Articles</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="card shadow" style="height:450px;">
+						<img class="rounded card-img-top" alt="boscoplaque" src="https://lh3.googleusercontent.com/QRr40Z2KCzQdZ3ybdeSLAULHtyOuNXNaLKYDYJ5bC1S1xReMiPNslgvzhKj4T_BbtTdXCQsAoJqW0hY6UkYl8282KfnP8eE2pMZpemOtf5b3DQmwlqNra6YvhxEOeNu3xz8Lj8yE4vq_faIXCLwPMq8YiK5c6F6ltddKxJ6ADRU7Qm1iknnAb3tfwnhe-VmA7I33GWqPidpexLrPelhF-4AJxZTx9ebodqo8Uya-fUU1cQzf95qGiuO2Zm2tHDGw_OW6Hc-JIADGssMZzwO5TVy1D5iYkl8TmaGBx9kelPsZKyHdW5QNOO6cQLZyA_vHBxXpeXKoOr5E6Wqqo2-_iQgTrobmGGdWmPsB-3p34qUlJtI3cckNsG3LWybkQd7tAhk1AEGsBZO0_2X31xJyCUCKTBxjny5C069S-AbLu58-p7lopyds9_UkHQYMjNMUkCVIpniWPvJTkBeNyKva-bULpeglkKXfE8ro3N8uc0LwIXx7PI1bDJzPczjmtXqvqdWY0LbiDERP7DwW4D6OoDYx23dac-F3vxP8cFVts8y9NLbn-2rcmrWA60oiaVjB6tjPgZCCmtbGKVbGsRiHXzeNZU04XosimTXnjWzEBA2ZPe5Z0YFYi7O_aHQJ_rmMWfDujjD9_g2Nk_yiFb61IyQNHWP-Z4c=w1157-h868-no"></img>
+						<div class="card-img-overlay">
+							<h3 style="text-align:center" class="card-title">Uganda</h3>							
+							<a href="#uganda" class="btn btn-primary btn-block stretched-link" role="button">See Articles</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<br>
+			<h2 style=text-align:center;>Select a Topic</h2>
+			<div class="card shadow mx-auto" style="padding-left:50px; padding-right=50px; width:600px;">
+				<div class="card-body">
 					<ul>
-						<li><a href=#mtn>Mount Kiliminjaro</a></li>
-						<li>Emmaus Dispensary at Sanya Juu</li>
+						<li><a class="text-success" href="#tnz">Tanzania</a></li>
+							<ul>
+								<li><a class="text-success" href=#mtn>Mount Kiliminjaro</a></li>
+								<li>Emmaus Dispensary at Sanya Juu</li>
+							</ul>
+						<li><a class="text-success" href=#uganda>Gulu, Uganda</a></li>
 					</ul>
-				<li><a href=#uganda>Gulu, Uganda</a></li>
-			</ul>
+				</div>
+			</div>
 			
-			
-			<h2>OR...Select a picture to view the post!</h2>
+			<br>
+			<h2>OR...<small>Select a picture to view the post!</small></h2>
 
-			<img src="https://lh3.googleusercontent.com/WbpwhTYXdSHUJL7xO8WQNfHuQpbJgd3PSUPFjqGJU4j8crTxPleD9Jui6cPpQ0B-fBO3w9N2KqrcjEqZVShskVVpRRwfWGKqSNHd1JjlMn59BtUgoJvtLEODNHUnQxOipHQyK5iB3P9BVFNTWBK07GeL_uokjLyzCVydjszVUGKpJDg1dS7ldyeyBFhe4bd0k2VQ3L-oQO351ae1Fr3K3VigoiqC4LKo-J5nQVObiIUnB-4L-i1L92-qsPw6MNE8laYwVNhVmjZgLoxjfql0Og2-xJczJDfix8FF-MzR_spyFH8zl0hrohNBYbcSTLOmuxeqsyZVQv8ca6KQkcOISYo5SPuBVqdToN49UfTB1XlyliI03QteGMgQkjbGqn8rajqQWMLM-BNqgybaZNzz2EzFzRrJDCJXoYPhrXlikOxPgW7xQM0KZBIXzoE4y9M1S-99tb-aTszNlTu0uLnOJ7DnxzPh1ef8CQ50zoE_VRGZu87Y6pCIln0vBZ1ABjep_va5XqiZ8GvtB7o4JsAMVfFDZtwniWA676i185HfvJsBxQwnxxDGDimpV7Mo11isv3as9WN5ovUo-8nbFiQZSK72T9L1m7XYVVbis54X6UJFr1UQ-lmBViC0ICHeIoBasN_xz6IMcrx4TWGRqz9H2Pqa3go2RXQ=w162-h216-no"></img>
-			<img src="https://lh3.googleusercontent.com/cgT_3XxYpGGElu1QbeGKzTikrf3R_POarS3u-aQGLPZW6xuQQIakEGMOcxxLQT_jfXTsb7iinzawRaEaQ9gDUmVa1yaLq1pXVG6kt8bfe8lJdxuNrWBPzDsz9jhFQYd-VQa-ZNQSB9pEWeeFJ9yZtdnVrgIcdK8lMcoyFh4c9jVzOlCOtPN3PfdFoZyyods6rfU4cZ2KV3Fp6772VOSu-js2Pxqr38RQ5RHr5_VEyGEVncAuyZAfg9BQavYCdHq6-8jHuJSCW5QAv2p4m00uytLtFfAGBV2ImtxCHUZZ2_3xnE68hHNfuYyw1zRStEyxZd_Qz29lB3uhSCrjmrX4jyhxmIyoARB0vq34pqizEZKQQcC60DzQ7AKehHdmx8oBhMfUG93-CN1S-lwxqAVKi77-aNCs0i5S74nsPxghqO5hwlFvTHoOqfKicRQpRJtKioEAmaB8VA3dK2fn0o-FE8jK5cA4ZbKFV-KESjtimwMxDJJ3ud_cme-vPUZk9PFpe2fhgU7B23p8WCF4JCRDDYp-KbHzTb7mpbEMVFMsncTNwsBNbg0nlvPrenomC7ohiaUeMgbz5SO2hBeDPYZ0hO_Vm-JvZ8GTbBlYW2puV-K9aRSB-PHQB0FpmYGSa-BonokTyUaA4MuiQTt__9zyYyJKUY7j88E=w287-h215-no"></img>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><img src="https://lh3.googleusercontent.com/WbpwhTYXdSHUJL7xO8WQNfHuQpbJgd3PSUPFjqGJU4j8crTxPleD9Jui6cPpQ0B-fBO3w9N2KqrcjEqZVShskVVpRRwfWGKqSNHd1JjlMn59BtUgoJvtLEODNHUnQxOipHQyK5iB3P9BVFNTWBK07GeL_uokjLyzCVydjszVUGKpJDg1dS7ldyeyBFhe4bd0k2VQ3L-oQO351ae1Fr3K3VigoiqC4LKo-J5nQVObiIUnB-4L-i1L92-qsPw6MNE8laYwVNhVmjZgLoxjfql0Og2-xJczJDfix8FF-MzR_spyFH8zl0hrohNBYbcSTLOmuxeqsyZVQv8ca6KQkcOISYo5SPuBVqdToN49UfTB1XlyliI03QteGMgQkjbGqn8rajqQWMLM-BNqgybaZNzz2EzFzRrJDCJXoYPhrXlikOxPgW7xQM0KZBIXzoE4y9M1S-99tb-aTszNlTu0uLnOJ7DnxzPh1ef8CQ50zoE_VRGZu87Y6pCIln0vBZ1ABjep_va5XqiZ8GvtB7o4JsAMVfFDZtwniWA676i185HfvJsBxQwnxxDGDimpV7Mo11isv3as9WN5ovUo-8nbFiQZSK72T9L1m7XYVVbis54X6UJFr1UQ-lmBViC0ICHeIoBasN_xz6IMcrx4TWGRqz9H2Pqa3go2RXQ=w162-h216-no"></img></button>
+				<!-- The Modal -->
+				<div class="modal" id="myModal">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+
+					  <!-- Modal Header -->
+					  <div class="modal-header">
+						<h4 class="modal-title">Modal Heading</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					  </div>
+
+					  <!-- Modal body -->
+					  <div class="modal-body">
+						Modal body..
+					  </div>
+
+					  <!-- Modal footer -->
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+					  </div>
+
+					</div>
+				  </div>
+				</div>
 			
-			<h2 id="tnz">Tanzania</h2>
-				<h3 id="mtn">Title for mountain article</h3>
-				<p>This is the story...</p>
 			
-				<h3 id="article2">Story 2</h3>
-				<p>This is the second story...</p>
+			<a href="#" data-toggle="tooltip" data-placement="top" title="Not linked yet. :("><img src="https://lh3.googleusercontent.com/cgT_3XxYpGGElu1QbeGKzTikrf3R_POarS3u-aQGLPZW6xuQQIakEGMOcxxLQT_jfXTsb7iinzawRaEaQ9gDUmVa1yaLq1pXVG6kt8bfe8lJdxuNrWBPzDsz9jhFQYd-VQa-ZNQSB9pEWeeFJ9yZtdnVrgIcdK8lMcoyFh4c9jVzOlCOtPN3PfdFoZyyods6rfU4cZ2KV3Fp6772VOSu-js2Pxqr38RQ5RHr5_VEyGEVncAuyZAfg9BQavYCdHq6-8jHuJSCW5QAv2p4m00uytLtFfAGBV2ImtxCHUZZ2_3xnE68hHNfuYyw1zRStEyxZd_Qz29lB3uhSCrjmrX4jyhxmIyoARB0vq34pqizEZKQQcC60DzQ7AKehHdmx8oBhMfUG93-CN1S-lwxqAVKi77-aNCs0i5S74nsPxghqO5hwlFvTHoOqfKicRQpRJtKioEAmaB8VA3dK2fn0o-FE8jK5cA4ZbKFV-KESjtimwMxDJJ3ud_cme-vPUZk9PFpe2fhgU7B23p8WCF4JCRDDYp-KbHzTb7mpbEMVFMsncTNwsBNbg0nlvPrenomC7ohiaUeMgbz5SO2hBeDPYZ0hO_Vm-JvZ8GTbBlYW2puV-K9aRSB-PHQB0FpmYGSa-BonokTyUaA4MuiQTt__9zyYyJKUY7j88E=w287-h215-no"></img></a>
+			
+			<!-- <script>
+			$(document).ready(function(){
+			  $('[data-toggle="tooltip"]').tooltip();   
+			});
+			</script> -->
+			
+			<h2 id="tnz">Tanzania  <small><a href="https://photos.app.goo.gl/1dRiNLAkpNuqLx4q8" target="_blank"><span class="badge badge-pill badge-primary">Photo Album</span></a></small></h2>
+				
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" data-toggle="tab" href="#kili">Mt. Kiliminjaro</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#story2">Story 2</a>
+					</li>
+				</ul>
+				
+				<!-- Tab panes -->
+				<div class="tab-content shadow p-4 mb-4 bg-white">
+					<div id="kili" class="container tab-pane active"><br>
+						<h3>Mt. Kiliminjaro</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+					</div>
+					<div id="story2" class="container tab-pane fade"><br>
+						<h3>Story2</h3>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				</div>
+			
 				
 			<h2 id="uganda">Uganda</h2>
+			
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" data-toggle="tab" href="#boscoPower">Power</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#article">Article</a>
+					</li>
+				</ul>
+				
+				<!-- Tab panes -->
+				<div class="tab-content shadow p-4 mb-4 bg-white">
+					<div id="boscoPower" class="container tab-pane active"><br>
+						<h3>Power</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+					</div>
+					<div id="article" class="container tab-pane fade"><br>
+						<h3>Article</h3>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				</div>
 		</div>
 		</body>
 </html>
